@@ -1,4 +1,5 @@
 # research
+```
 RE(gex|cursively) SEARCH a directory
 
 options:
@@ -11,3 +12,4 @@ options:
                         comma separated list of dirs to exclude
   -i, --ignorecase      search case insensitive
   -v, --verbose         increase verbosity
+```
