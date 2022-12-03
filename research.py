@@ -62,7 +62,8 @@ def match_regex(file):
 if __name__ == '__main__':
     for file in traverse_dir(directory):
         matches = match_regex(file)
-        print(f"\n{ file }")
-        for line in matches:
-            line = line.strip('\n')
-            print(line)
+        if matches:
+            print(f"\n{ file }")
+            for line in matches:
+                line = line.strip('\n')
+                print(line)
